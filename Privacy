@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – MagicWeather</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 760px; margin: 40px auto; padding: 0 24px; color: #1a1a2e; line-height: 1.7; }
+        h1 { color: #0f3460; border-bottom: 2px solid #3b82f6; padding-bottom: 12px; }
+        h2 { color: #0f3460; margin-top: 32px; }
+        p, li { color: #374151; }
+        ul { padding-left: 20px; }
+        .updated { color: #6b7280; font-size: 14px; }
+        a { color: #3b82f6; }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: March 22, 2026</p>
+
+<p>This Privacy Policy describes how <strong>MagicWeather – Drone Preflight</strong> ("the App", "we", "us") handles your information. We are committed to protecting your privacy.</p>
+
+<h2>1. Information We Collect</h2>
+<p>The App collects only the information necessary to provide its core functionality:</p>
+<ul>
+    <li><strong>Location data (GPS):</strong> Your device's GPS coordinates are used solely to fetch weather conditions, Met Éireann warnings, and IAA airspace information relevant to your area. Location data is sent directly to third-party weather APIs and is never stored on our servers.</li>
+    <li><strong>Flight log entries:</strong> Flight records you manually create (date, location, duration, notes) are stored locally on your device only. This data is never transmitted to us or any third party.</li>
+    <li><strong>Drone profiles:</strong> Drone configuration data you enter is stored locally on your device only.</li>
+    <li><strong>App preferences and settings:</strong> Your notification preferences, alert thresholds, and display settings are stored locally on your device using Android DataStore.</li>
+</ul>
+
+<h2>2. Information We Do Not Collect</h2>
+<ul>
+    <li>We do not collect your name, email address, or any personally identifiable information.</li>
+    <li>We do not collect analytics, usage statistics, or crash reports.</li>
+    <li>We do not use advertising SDKs or tracking technologies.</li>
+    <li>We do not have servers — there is no backend or database associated with this app.</li>
+</ul>
+
+<h2>3. Third-Party Services</h2>
+<p>The App communicates with the following external services to retrieve weather and airspace data. Please review their respective privacy policies:</p>
+<ul>
+    <li><strong>Open-Meteo</strong> (open-meteo.com) – Weather forecasts. Open source, no account required.</li>
+    <li><strong>Met Éireann</strong> (met.ie) – Irish national weather warnings.</li>
+    <li><strong>Aviation Weather Center</strong> (aviationweather.gov) – METAR reports and NOTAM data.</li>
+    <li><strong>OpenStreetMap / Nominatim</strong> (openstreetmap.org) – Map tiles and reverse geocoding.</li>
+    <li><strong>Google Play Services</strong> – Used for GPS location on Android devices.</li>
+</ul>
+<p>These services receive only the coordinates needed to serve weather data. No personal information is shared.</p>
+
+<h2>4. Permissions</h2>
+<ul>
+    <li><strong>ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION:</strong> Required to determine your GPS position for local weather lookup.</li>
+    <li><strong>INTERNET:</strong> Required to fetch live weather data from external APIs.</li>
+    <li><strong>POST_NOTIFICATIONS:</strong> Required to send optional background weather alerts (Android 13+). You can disable this at any time in your device settings.</li>
+    <li><strong>RECEIVE_BOOT_COMPLETED:</strong> Allows background weather alerts to resume after a device restart if you have enabled them.</li>
+</ul>
+
+<h2>5. Data Storage and Security</h2>
+<p>All data created within the App (flight logs, drone profiles, settings) is stored exclusively on your local device. It is not backed up to any cloud service operated by us. Standard Android security protects this data from other apps.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>The App is not directed at children under the age of 13. We do not knowingly collect any information from children.</p>
+
+<h2>7. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Any changes will be reflected with an updated date at the top of this page. Continued use of the App constitutes acceptance of the revised policy.</p>
+
+<h2>8. Contact</h2>
+<p>If you have any questions about this Privacy Policy, please contact us at:<br>
+<a href="mailto:dean.maruzin@gmail.com">dean.maruzin@gmail.com</a></p>
+
+</body>
+</html>
